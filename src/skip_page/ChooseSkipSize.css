@@ -69,18 +69,20 @@ body {
 }
 
 .location-info {
-    display: none;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 0.875rem;
     color: #6b7280;
 }
 
-@media (min-width: 768px) {
+
+@media (max-width: 320px) {
     .location-info {
-        display: flex;
+        display: none;
     }
 }
+
 
 /* Progress Bar Styles */
 .progress-container {
