@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# REM Waster Re-design Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I wanted to create basic yet modern design page. I used light colors on background, mainly tones of white with gradient to make design more attractive.
 
-## Available Scripts
+## Cards
+Every skip hiring option is shown within cards with animation. Whenever user hovers on cards it goes slightly up, box-shadow changes and border gets a new color so that user can have better feeling when inspecting skip options.
 
-In the project directory, you can run:
+## Figma
+I used Figma to create a basic template on what am I going to put on cards and how I am going to put it. I didn't use any coloring in Figma, only used it for templating purpose.
 
-### `npm start`
+![figmaDesign](https://github.com/user-attachments/assets/b4ea50b8-e37d-4382-a801-9baf22883f2e)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Most Popular
+I added "Most Popular" and "Compact Choice" labels to the cards to increase engagement and encourage users to make a purchase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Reusable Components
+I made footer to look more professional and put it in another file inside of src called "components". That's where I would put reusable components.
 
-### `npm test`
+I also created UnderConstruction component which creates a starting point for future development for other pages. UnderConstruction component shows up when clicked on progress bars except for "Select Skip" page.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Loading
+I used spinner for loading animation. While fetch operation is active, it shows up spinner until data fetched from api.
