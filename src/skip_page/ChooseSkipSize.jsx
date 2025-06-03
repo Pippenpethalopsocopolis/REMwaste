@@ -6,7 +6,7 @@ import UnderConstruction from './UnderConstruction';
 import Footer from '../components/Footer';
 import './ChooseSkipSize.css';
 
-function SkipHireSelector() {
+function ChooseSkipSize() {
     const [selectedSkip, setSelectedSkip] = useState(null);
     const [showComparison, setShowComparison] = useState(false);
     const [currentPage, setCurrentPage] = useState('skip');
@@ -309,4 +309,4 @@ function SkipHireSelector() {
     );
 };
 
-export default SkipHireSelector;
+export default ChooseSkipSize;

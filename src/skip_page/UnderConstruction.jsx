@@ -12,10 +12,10 @@ function UnderConstruction({ stepLabel, onBackToSkips }) {
 
                 <h2>Under Construction</h2>
 
-                <p>The {stepLabel} page is currently being built.</p>
+                <p>The <b>{stepLabel}</b> page is currently being built.</p>
 
                 <p className="construction-description">
-                    We're working hard to bring you this feature. Please check back soon!
+                    Thank you for taking time to review my application {':)'}
                 </p>
 
                 <button
