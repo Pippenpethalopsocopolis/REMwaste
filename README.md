@@ -20,3 +20,9 @@ I also created UnderConstruction component which creates a starting point for fu
 
 ## Loading
 I used spinner for loading animation. While fetch operation is active, it shows up spinner until data fetched from api.
+
+## Responsiveness
+I used rem units or percentage for most of the project to make it responsive. I used rem units with paddings and font sizes.
+
+## Mobile Approach
+I used queries to sometimes hide some icons, shrink them, when screen width is not wide enough. Since I used grid and flexbox, I didn't needed to arrange media querries that much except for font size or padding changes. This project is fully compatible with mobile browsers.
